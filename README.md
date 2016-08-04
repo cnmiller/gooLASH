@@ -1,13 +1,5 @@
-                   _       ___   _____ _   _ 
-                  | |     / _ \ /  ___| | | |
-  __ _  ___   ___ | |    / /_\ \\ `--.| |_| |
- / _` |/ _ \ / _ \| |    |  _  | `--. \  _  |
-| (_| | (_) | (_) | |____| | | |/\__/ / | | |
- \__, |\___/ \___/\_____/\_| |_/\____/\_| |_/
-  __/ |                                      
- |___/                          
 
- Google Lightweight Automated Search Hacking (gooLASH)
+ #Google Lightweight Automated Search Hacking (gooLASH)
  ======
 
 ## UNDER CONSTRUCTION
