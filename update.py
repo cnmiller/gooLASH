@@ -1,10 +1,15 @@
-#Google Lightweight Search Hacking (gooLASH)
+#Google Lightweight Automated Search Hacking (gooLASH)
 #Written by Chase Miller (@psuchase)
-#Secquity.com
 
-from lxml import html
+import urllib2
 import requests
+from BeautifulSoup import BeautifulSoup
+# or if you're using BeautifulSoup4:
+# from bs4 import BeautifulSoup
 
-#Retrieve the exploit-db.com Google Hacking Database (GHDB)
-page = requests.get('https://www.exploit-db.com/google-hacking-database/')
-tree = html.fromstring(page.content)
+soup = BeautifulSoup(requests.get('https://www.exploit-db.com/google-hacking-database/', verify=False).text)
+
+for row in soup('table'):
+    tds = row('td')
+    print tds[0].string, tds[1].string
+    # will print date and sunrise
