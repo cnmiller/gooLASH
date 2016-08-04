@@ -1,6 +1,5 @@
 
- #Google Lightweight Automated Search Hacking (gooLASH)
- ======
+#Google Lightweight Automated Search Hacking (gooLASH)
 
 ## UNDER CONSTRUCTION
 
